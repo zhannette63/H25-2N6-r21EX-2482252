@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppCompteurHydro
 {
+<<<<<<< HEAD
     public class CompteurHydro : ICompteurHydro
     {
         //Stocker la consommation actuelle exprimée en Kwh
@@ -30,5 +31,9 @@ namespace AppCompteurHydro
         {
             m_consommationActuelle += pQuantitéKwh;
         }
+=======
+    internal class CompteurHydro
+    {
+>>>>>>> 718203c06c33580d0ee8e7b2dcdd5f8f979e576a
     }
 }
